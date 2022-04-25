@@ -48,7 +48,7 @@ function startTimer() {
         const timeComponents = convertMs(time);
         markup(timeComponents);
 
-        if (time <= 0) {
+        if (time <= 1000) {
             clearInterval(timerId);
     }
     }, 1000);
